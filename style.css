@@ -18,37 +18,51 @@ body {
 }
 
 .display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     background-color: white;
     height: 20%;
     width: 90%;
 }
 
+.displayBox {
+    background-color: red;
+    width: 100%;
+    height: 40%;
+    text-align: right;
+    font-size: xx-large;
+
+}
+
 .buttons {
     display: flex;
-    background-color: #767e91;
     height: 70%;
     width: 90%;
 }
 
 .numbers {
     display: flex;
-    border: 5px solid;
+    background-color: gray;
     width: 75%;
     flex-wrap: wrap;
 }
 
 .operators {
     display: flex;
+    background-color: black;
     width: 25%;
     flex-direction: column;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .operator {
-    color: red;
-    width: 25%;
+    width: 50%;
     height: 10%;
 }
+
+
 
 button {
 	color: inherit;
