@@ -1,5 +1,5 @@
 body {
-    background-color: darkgrey;
+    background-color: #1e1e1e;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,19 +12,22 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background-color: gray;
+    background-color: #2d2d30;
     width: 50vh;
     height: 70vh;
-    border: 2px solid;
+    border: 1px solid;
+    border-radius: 15px;
 }
 
 .display {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: white;
-    height: 20%;
+    background-color: #eaeaea;
+    height: 15%;
     width: 90%;
+    border: 1.3px solid black;
+    border-radius: 10px;
 }
 
 .displayBox {
@@ -32,13 +35,14 @@ body {
     height: 40%;
     text-align: right;
     font-size: calc(2vw + 2vh);
-
 }
 
 .buttons {
     display: flex;
     height: 70%;
     width: 90%;
+    border: 1px solid black;
+    border-radius: 25px;
 }
 
 .numbers {
@@ -68,14 +72,25 @@ body {
 
 
 button {
-	color: inherit;
+	background-color: #eaeaea;
 	border: none;
 	padding: 0;
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
     border-radius: 25px;
-    font-size: calc(.75vw + .75vh);
+    font-size: calc(.9vw + .9vh);
+    border: 1px solid;
+    box-shadow: 0 1px #999;
+}
+
+button:hover {
+    background-color: #c1c1c1;
+}
+
+button:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px #666;
 }
 
 .number {
