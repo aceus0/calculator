@@ -128,7 +128,7 @@ equal.addEventListener(`click`, (e) =>{
     console.log(num2);
     result = operate(num1, num2, operator);
     if (result === `no`) {
-        display.textContent = `DO NOT DO THAT!`;
+        display.textContent = `NO.`;
         result = ``;
         input = ``;
         hasRun = true;
