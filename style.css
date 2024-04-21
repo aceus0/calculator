@@ -27,11 +27,10 @@ body {
 }
 
 .displayBox {
-    background-color: red;
     width: 100%;
     height: 40%;
     text-align: right;
-    font-size: xx-large;
+    font-size: calc(1vw + 1vh);
 
 }
 
